@@ -59,7 +59,7 @@ Desarrollar una plataforma web gratuita para que estudiantes de preuniversitario
 
 ## 9. Tecnologías
 - **Front:** TypeScript, Angular
-- **Back:** Node.js + Express
+- **Back:** Python (FastAPI)
 - **BD:** PostgreSQL (Supabase)
 - **Despliegue:** Vercel (front), Render (back)
 - **IA:** Gemini API (gratuita)
