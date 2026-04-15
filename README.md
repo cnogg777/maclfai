@@ -58,7 +58,7 @@ Desarrollar una plataforma web gratuita para que estudiantes de preuniversitario
 | Back End | Andrés Jehu Yáñez González |
 
 ## 9. Tecnologías
-- **Front:** TypeScript, React
+- **Front:** TypeScript, Angular
 - **Back:** Node.js + Express
 - **BD:** PostgreSQL (Supabase)
 - **Despliegue:** Vercel (front), Render (back)
