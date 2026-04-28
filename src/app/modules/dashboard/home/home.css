@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+  padding: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #1e293b;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: #334155;
+}
