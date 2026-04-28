@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "EB Garamond", serif;
+  
+  --color-brand-primary: #2563eb; /* blue-600 */
+  --color-brand-bg: #f8fafc; /* slate-50 */
+  --color-brand-border: #e2e8f0; /* slate-200 */
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+.markdown-body h1 { @apply text-2xl font-bold mb-4 text-slate-800; }
+.markdown-body h2 { @apply text-xl font-bold mb-3 text-slate-800; }
+.markdown-body p { @apply text-lg leading-relaxed mb-4 font-serif text-slate-700; }
+
+/* Custom Shadows */
+.geometric-shadow {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+

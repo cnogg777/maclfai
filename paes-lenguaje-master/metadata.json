@@ -1,0 +1,10 @@
+{
+  "name": "PAES Lenguaje Master",
+  "description": "Plataforma interactiva para la preparación de la PAES de Competencia Lectora con tutoría de IA y simulacros realistas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "AI-powered practice questions",
+    "Reading comprehension analysis",
+    "Real-time feedback"
+  ]
+}
