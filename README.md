@@ -84,4 +84,4 @@ MACFLAI es la única solución que cumple **8/8 criterios** (generación dinámi
 - Maximiliano Villela (Jefe proyecto)
 - Joaquin Mateo Diez Gioia (DBA/Analista)
 - Andrés Jehu Yáñez González (Back End)
->>>>>>> 362dd2b9b30bdffc21ca40871e2681405d2f2659
+
