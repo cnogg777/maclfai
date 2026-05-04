@@ -20,7 +20,7 @@ export class LoginComponent implements OnInit {
   constructor(private router: Router) {}
 
   ngOnInit() {
-    // 👇 SOLO en navegador
+    //  SOLO en navegador
     if (typeof window !== 'undefined') {
       const usuario = localStorage.getItem('usuario');
 
@@ -33,7 +33,7 @@ export class LoginComponent implements OnInit {
   login() {
     if (this.email === 'admin@paes.cl' && this.password === '1234') {
 
-      // 👇 SOLO en navegador
+      //  SOLO en navegador
       if (typeof window !== 'undefined') {
         localStorage.setItem('usuario', this.email);
 
